@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // var list = [
+    //     {
+    //         "id": 11,
+    //         "code": null,
+    //         "fatherId": null,
+    //         "name": "启天",
+    //         "level": 1,
+    //         "sequence": 1,
+    //         "productGroupCode": "03",
+    //         "layerType": null,
+    //         "status": 0,
+    //         "isDeleted": 0,
+    //         "remark": null
+    //     },
+    //     {
+    //         "id": 12,
+    //         "code": null,
+    //         "fatherId": 11,
+    //         "name": "启天M(20L)",
+    //         "level": 2,
+    //         "sequence": 1,
+    //         "productGroupCode": "03",
+    //         "layerType": null,
+    //         "status": 0,
+    //         "isDeleted": 0,
+    //         "remark": null
+    //     },
+    //     {
+    //         "id": 13,
+    //         "code": null,
+    //         "fatherId": 11,
+    //         "name": "启天B(20L)",
+    //         "level": 2,
+    //         "sequence": 2,
+    //         "productGroupCode": "03",
+    //         "layerType": null,
+    //         "status": 0,
+    //         "isDeleted": 0,
+    //         "remark": null
+    //     },
+    //     {
+    //         "id": 14,
+    //         "code": null,
+    //         "fatherId": 11,
+    //         "name": "启天M(11L)",
+    //         "level": 2,
+    //         "sequence": 3,
+    //         "productGroupCode": "03",
+    //         "layerType": null,
+    //         "status": 0,
+    //         "isDeleted": 0,
+    //         "remark": null
+    //     }
+    // ]
+    //
+    // function filterArray(data, a) {
+    //     var vm = this;
+    //     var tree = [];
+    //     var temp;
+    //     for (var i = 0; i < data.length; i++) {
+    //         if (data[i].fatherId == a) {
+    //
+    //             var obj = data[i];
+    //
+    //             temp = filterArray(data, data[i].id);
+    //             if (temp.length > 0) {
+    //                 obj.children = temp;
+    //             }
+    //             tree.push(obj);
+    //             console.log(tree);
+    //         }
+    //     }
+    //     return tree;
+    // }
+    // console.log(filterArray(list))
+    // var type= JSON.parse(JSON.stringify(filterArray(list)).replace(/name/g,"label"));
+    // var type= JSON.parse(JSON.stringify(type).replace(/name/g,"label"));
+    //
+    //
+    // console.log(aa);
+    let goodsTypeParaList= [
+        {
+            "id": "0953b0f9-41fc-4d06-b810-db8f778469fc",
+            "dictionariesId": "384f7235-2c79-46eb-a1ac-a461a4e49810",
+            "dictionariesName": "内存",
+            "presetValue": "1G,2G,4G"
+        },
+        {
+            "id": "b53f905a-204d-445f-a6a3-a94dcc362209",
+            "dictionariesId": "3b7a6fe4-888c-42aa-8560-ce91e2640a91",
+            "dictionariesName": "处理器",
+            "presetValue": "I3,I5,I7"
+        },
+        {
+            "id": "7aba77fd-c00c-477f-bd7e-b5c544a7ebe1",
+            "dictionariesId": "6e8aa574-b18d-49bc-8f3e-4549794f44b6",
+            "dictionariesName": "分辨率",
+            "presetValue": "800,1000,1200"
+
+        },
+        {
+            "id": "fb8f09ad-a238-4dce-bcc5-df880edf4d4c",
+            "dictionariesId": "e6283a04-cfa6-4d62-ba70-e76cfffef2a2",
+            "dictionariesName": "外观要求",
+            "presetValue": "经典,艺术"
+        },
+        {
+            "id": "b07b5cd2-6ea3-4586-8663-f54b99d23a86",
+            "dictionariesId": "f0840521-1577-49f2-84f7-9273822e1e24",
+            "dictionariesName": "网络模式",
+            "presetValue": ""
+        }
+    ]
+
+    // goodsTypeParaList.map(item=>{
+    //     if(item.presetValue.length>0){
+    //         let presetArr = item.presetValue.split(",")
+    //         item.presetValue =[]
+    //         presetArr.map(value=>{
+    //             item.presetValue.push(
+    //                 {
+    //                     key:value,
+    //                     label:value,
+    //                 }
+    //             )
+    //         })
+    //     }
+    // })
+    //
+    //
+    // console.log(goodsTypeParaList);
+
+
+</script>
+</body>
+</html>
